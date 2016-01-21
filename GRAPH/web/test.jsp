@@ -4,7 +4,7 @@
  <script type="text/javascript">
 google.charts.load('current', {packages: ['corechart', 'bar']});
 		google.charts.setOnLoadCallback(drawMultSeries);
-
+		//과이연~?
 		function drawMultSeries() {
 			var data = google.visualization.arrayToDataTable([
 					[ 'City', '2010 Population', '2000 Population' ],
